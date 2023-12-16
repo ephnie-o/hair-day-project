@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EDEFEE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 0.7rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+h3{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #d05f4b;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
+}    
+
+nav li{
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+nav a{
+    color: #EDEFEE;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-shadow: 0 0 1rem black;
+}
+
+nav a:visited {
+    color: #662c22;
+}
+
+.promobanner {
+    flex: 1 0 80%;
+    height: 10rem;
+    font-size: 1.5rem;
+}
+
+
+
+.promotion {
+    color: #EDEFEE;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hairday{
+    width: 15rem;
+    height: 10rem;
+}
+
+img{
+    margin-bottom: 1rem;
+}
+
+article{
+    flex: 1;
+    background-color: #c6a6a1;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+
+@keyframes animation {
+    from {
+        background-color: #c6a6a1;
+    }
+    to {
+        background-color: #d05f4b;
+    }
+}
+
+article:hover {
+    box-shadow: 10px 10px 10px 10px gray;
+}
+
+footer{
+    display: flex;
+    margin-left: 2%;
+    align-items: stretch;
+}
+
+.line {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+footer div{
+    flex: 1;
+    margin-top: 0.1rem;
+    margin-right: 1rem;
+}
+
+footer p {
+    margin-top: 0.1rem;
+}
+
